@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjava_langchains_docs=self.webpackChunkjava_langchains_docs||[]).push([[257],{3079:a=>{a.exports=JSON.parse('{"title":"Data","slug":"/category/data","permalink":"/docs/category/data","navigation":{"previous":{"title":"Base","permalink":"/docs/packages/base"},"next":{"title":"Reader","permalink":"/docs/packages/data/reader"}}}')}}]);
