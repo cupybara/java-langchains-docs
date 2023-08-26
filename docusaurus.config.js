@@ -8,8 +8,8 @@ const baseUrl = "/java-langchains-docs/";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Java Langchains - Cupybara',
+  tagline: 'Empowering users to build modular LLM applications using Java',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
@@ -56,8 +56,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark'
+      },
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
 
         logo: {
