@@ -4,6 +4,8 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const baseUrl = "/java-langchains-docs/";
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'My Site',
@@ -11,10 +13,10 @@ const config = {
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://cupybara.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/java-langchains-docs/',
+  baseUrl: baseUrl,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -78,11 +80,11 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/category/getting-started',
+                to: baseUrl + '/docs/category/getting-started',
               },
               {
                 label: 'Packages',
-                to: '/docs/category/packages'
+                to: baseUrl + '/docs/category/packages'
               }
             ],
           },
