@@ -24,7 +24,7 @@ This section contains an overview of different packages and the available classe
 
 Basic chains that serve general purposes for e.g. logging.
 
-### [Data](../packages/data)
+### [Data](../category/data)
 
 Data-related chains to read / retrieve / write documents from / to different sources.
 
